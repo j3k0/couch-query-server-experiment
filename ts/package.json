@@ -1,0 +1,18 @@
+{
+  "name": "iaptic-query-server",
+  "version": "1.0.0",
+  "description": "CouchDB Query Server for Iaptic",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "build": "tsc --lib ES2015 --outDir build index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  }
+}
